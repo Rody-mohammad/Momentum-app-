@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+# This is an internal application, not a published Dart package. Retain the
+# correctness and safety rules from very_good_analysis while excluding its
+# package-documentation and rigid formatting conventions.
+linter:
+  rules:
+    always_put_required_named_parameters_first: false
+    avoid_redundant_argument_values: false
+    cascade_invocations: false
+    directives_ordering: false
+    eol_at_end_of_file: false
+    lines_longer_than_80_chars: false
+    public_member_api_docs: false
+    sort_pub_dependencies: false
+    unnecessary_breaks: false
